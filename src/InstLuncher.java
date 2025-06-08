@@ -1,4 +1,4 @@
-package SP25_simulator;
+package SP25_simulator.src;
 
 // instruction에 따라 동작을 수행하는 메소드를 정의하는 클래스
 

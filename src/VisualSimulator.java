@@ -1,11 +1,8 @@
-package SP25_simulator;
+package SP25_simulator.src;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 
 /**
  * VisualSimulator는 사용자와의 상호작용을 담당한다. 즉, 버튼 클릭등의 이벤트를 전달하고 그에 따른 결과값을 화면에 업데이트

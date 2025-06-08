@@ -1,4 +1,4 @@
-package SP25_simulator;
+package SP25_simulator.src;
 
 import java.io.BufferedReader;
 import java.io.File;
