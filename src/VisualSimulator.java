@@ -185,7 +185,7 @@ public class VisualSimulator extends JFrame {
 
 	    fileNameField.setText(program.getName());
 		sicLoader.setSicSimulator(sicSimulator);
-		sicSimulator.openInstFile("inst_table.txt");
+		sicSimulator.openInstFile("input/inst_table.txt");
 	    sicSimulator.load(program);
 	    sicLoader.load(program);
 		for (var entry : sicSimulator.instMap.entrySet()) {

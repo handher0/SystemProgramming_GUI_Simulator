@@ -290,7 +290,9 @@ public class SicLoader {
 					code.equalsIgnoreCase("F1") ||
 					code.equalsIgnoreCase("001000") ||
 					code.equalsIgnoreCase("05") ||
-					code.equalsIgnoreCase("05303030")) {
+					code.equalsIgnoreCase("05303030") ||
+					code.equalsIgnoreCase("000000") ||
+					code.equalsIgnoreCase("000003")) {
 				addr += instLen;
 				continue;
 			}
